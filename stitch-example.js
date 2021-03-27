@@ -14,7 +14,7 @@ request('https://api.stitchdata.com/v2/import/batch', {
         podcast_name: { type: 'string' },
         episode_guid: { type: 'string' },
         episode_title: { type: 'string' },
-        episode_date: { type: 'string', 'format': 'date' },
+        episode_date: { type: 'string', 'format': 'date-time' },
         episode_mp3: { type: 'string' }
       }
     },
@@ -26,7 +26,7 @@ request('https://api.stitchdata.com/v2/import/batch', {
           podcast_name: 'Test Podcast',
           episode_guid: '00000000-0000-0000-0000-000000000001',
           episode_title: 'My First Episode',
-          episode_date: '2021-01-01',
+          episode_date: new Date('2021-01-01').toISOString(),
           episode_mp3: 'https://test.com/sample-2.mp3'
         }
       },
@@ -37,8 +37,19 @@ request('https://api.stitchdata.com/v2/import/batch', {
           podcast_name: 'Test Podcast',
           episode_guid: '00000000-0000-0000-0000-000000000002',
           episode_title: 'My Second Episode',
-          episode_date: '2021-02-01',
+          episode_date: new Date('2021-02-01').toISOString(),
           episode_mp3: 'https://test.com/sample-1.mp3'
+        }
+      },
+      {
+        action: 'upsert',
+        sequence: 0,
+        data: { 
+          podcast_name: 'Test Podcast',
+          episode_guid: '00000000-0000-0000-0000-000000000003',
+          episode_title: 'My Third Episode',
+          episode_date: new Date('2021-03-01').toISOString(),
+          episode_mp3: 'https://test.com/sample-3.mp3'
         }
       }
     ],
