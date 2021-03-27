@@ -10,9 +10,9 @@ You will need the following credentials to successfully complete this project.
 
 | Key | Value |
 | --- | ----- |
-| Snowflake Username | `DATA_EXPERT` |
-| Snowflake Password | `BarstoolSports!2021` |
-| Snowflake Url | https://tla60658.us-east-1.snowflakecomputing.com |
+| Console | https://tla60658.us-east-1.snowflakecomputing.com |
+| Username | `DATA_EXPERT` |
+| Password | `BarstoolSports!2021` |
 
 #### Stitch Data
 
