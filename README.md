@@ -32,7 +32,6 @@ You will need the following credentials to successfully complete this project.
 | Dateline NBC | https://podcastfeeds.nbcnews.com/dateline-nbc |
 | This American Life | http://feed.thisamericanlife.org/talpodcast |
 | The Dan Bongino Show | https://feeds.megaphone.fm/WWO3519750118 |
-| CNN News Briefing | https://www.omnycontent.com/d/playlist/d83f52e4-2455-47f4-982e-ab790120b954/c60c7fde-12c3-42c0-b017-ab8601030664/d9d8c960-d59c-41c7-86a3-ab8601030664/podcast.rss |
 | NPR Politics | https://feeds.npr.org/510310/podcast.xml |
 | Call Her Daddy | https://mcsorleys.barstoolsports.com/feed/call-her-daddy |
 | Pardon My Take | https://mcsorleys.barstoolsports.com/feed/pardon-my-take |
