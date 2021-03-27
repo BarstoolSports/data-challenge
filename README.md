@@ -38,7 +38,7 @@ You will need the following credentials to successfully complete this project.
 
 ## Part 1
 
-Your goal is to write a scraper that scrapes each RSS feed listed above, parse the episodes in each feed, and store them in Snowflake by hitting hitting the Stitch data API.
+Your goal is to write a scraper that scrapes each RSS feed listed above, parse the episodes in each feed, and store them in Snowflake by hitting the Stitch data API.
 
 An example implementation of storing data in Snowflake is provided in the `stitch-example.js` file. The example is written in Node.js but feel free to use any language of your choosing to complete this. It's important to follow the same table schema in the example implementation otherwise the data might not save correctly.
 
