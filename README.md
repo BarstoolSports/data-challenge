@@ -1,6 +1,6 @@
 # Barstool Data Challenge
 
-The goal of this challenege is to scrape podcast data from a provided list of rss feeds and store it in a Snowflake data warehouse using the [Stitch Import API](https://www.stitchdata.com/docs/developers/import-api/).
+The goal of this challenge is to scrape podcast data from a provided list of rss feeds and store it in a Snowflake data warehouse using the [Stitch Import API](https://www.stitchdata.com/docs/developers/import-api/).
 
 ## Credentials
 
